@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fontes externas</title>
+    <style>
+        @font-face {
+            font-family: 'sci-fi'; /*coloquei o nome que eu quis depois de configurar a regra*/
+            src: url('fonts/Conthrax-Semibold.otf') format('Opentype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        /* tipos de format() 
+        -opentype(otf)
+        -truetype(ttf)
+        -embedded-opentype
+        -truetype-att (Apple advenced typography)
+        -svg */
+        body{
+            font-family: 'sci-fi'Arial, Helvetica, sans-serif;
+        }
+        h1{
+            font-family: 'sci-fi','Times New Roman', Times, serif;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>titulo</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor expedita doloribus temporibus, nesciunt, officiis fugiat commodi accusamus atque consequuntur a libero, saepe facere voluptate nam aspernatur et excepturi fugit perspiciatis!</p>
+</body>
+</html>

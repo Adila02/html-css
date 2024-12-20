@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outras formatações</title>
+
+</head>
+<body>
+    <h1>Outras Formatações</h1>
+    <h2>Código-fonte / Pré- formatação </h2>
+    <p>o comando <code>document.getElementById('teste')</code> é escrito em linguagem JavaScript</p> <!--para inserir uma fonte mono espaçada na frase document.getElementById('teste') utilizei o envelopamento (seleciona a frase em questão, ctrl+shift+p e escolhe "wrap with abbreviation" enter e depois a tag a ser usada, nesse caso a tag code e enter--> 
+
+    <pre> <!--a tag "pre" faz a formatação de identação de um codigo por exemplo-->
+        <code> num = int(input('digite um numero inteiro'))
+            if num % 2 == 0:
+            print(f'o numero {num} é par')
+            else:
+            print(f'o numero {num} é impar')
+            print('fim do programa') <!--tambem é possível com somento o codigo selecionado apertar shift+tab para diminuir a margem, tabulação-->
+        </code>
+    </pre>
+<h2>Citações</h2>
+<p>como diria o pai de um amigo: <q> o computador é um burro muito rápido.</q></p>
+<!--a tag q é uma tag para inserir aspas para indicar citações-->
+<h2>Citações completas</h2>
+<p>Segundo Silva S.M., no seu livro costruindo sites com css e (X)Html:</p>
+<blockquote> <cite> https://www.google.com.br/books/edition/Construindo_Sites_com_CSS_e_X_HTML/BxKWAwAAQBAJ?hl=pt-BR&gbpv=1 </cite>
+    Tabelas são por excelencia o identificador e o grande diferencial entre a marcação HTML ultrapassada e a moderna marcação de websites.
+</blockquote>
+<h2>Abreviações</h2>
+<p>Estou estudando <abbr title="Hypertext Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr>. Estou adorando!</p>
+
+<h2>Texto invertido</h2>
+<p><bdo dir="rtl">estou aprendendo a criar coisas em html!</bdo></p>
+<p><bdo dir="ltr"> estou aprendendo a criar coisas em html</bdo></p>
+<!--a tag bdo r ou bdo l é pra deixar a frase invertida (left esquerda)(rigth direita)-->
+</body>
+</html>
